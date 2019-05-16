@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com</groupId>
-  <artifactId>happymmall</artifactId>
+  <artifactId>mmall</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>happymmall Maven Webapp</name>
+  <name>mmall Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -110,6 +110,12 @@
       <artifactId>logback-core</artifactId>
       <version>1.1.2</version>
       <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>2.1</version>
     </dependency>
 
     <dependency>
@@ -253,7 +259,7 @@
 
 
   <build>
-    <finalName>happymmall</finalName>
+    <finalName>mmall</finalName>
     <plugins>
       <plugin>
         <groupId>org.mybatis.generator</groupId>
